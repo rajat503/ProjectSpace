@@ -14,7 +14,7 @@ if(isset($_POST['category']))
 			 {
 			    echo "No projects in the branch.";
 			 }
-			for($a=0;$a<$query_num_rows;$a++)
+			for($a=$query_num_rows-1;$a>=0;$a--)
 			{
 				
 					$serial=mysql_result($query_run,$a,'serial');
@@ -38,7 +38,7 @@ if(isset($_POST['category']))
 }
 ?>
 <form action="<?php echo $current_file; ?>" method="POST">
-Select Category: 
+<!-- Select Category: 
 <select name="category">
 	<option value="">Select</option>
 	<option value="A1">Chemical</option>
@@ -54,4 +54,4 @@ Select Category:
 	<option value="O1">Others</option>
 </select> <br/>
 <input type="submit" value="Search">
-</form>
+</form> -->

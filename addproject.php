@@ -28,7 +28,7 @@ if(isset($_POST['title']) && isset($_POST['details']) && isset($_POST['prereq'])
 }
 ?>
 <form action="<?php echo $current_file; ?>" method="POST">
-Enter book title: <input type="text" name="title"> <br/>
+<!-- Enter book title: <input type="text" name="title"> <br/>
 Enter details: <input type="text" name="details"><br/>
 Price: <input type="text" name="price"> <br/>
 Negotiable:<br /> <input type="radio" name="negotiation" value="y"> Yes<br>
@@ -49,4 +49,4 @@ Category:
 	<option value="O1">Others</option>
 </select> <br/>
 <input type="submit" value="Add">
-</form>
+</form> -->

@@ -9,7 +9,7 @@ if($query_run=mysql_query($query))
 	{
 		echo "No projects listed.";
 	}
-	for($a=0;$a<$query_num_rows;$a++)
+	for($a=$query_num_rows-1;$a>=0;$a--)
 	{
 				
 		$serial=mysql_result($query_run,$a,'serial');
