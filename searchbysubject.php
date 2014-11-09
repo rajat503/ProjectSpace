@@ -37,7 +37,21 @@ if(isset($_POST['category']))
 	}
 }
 ?>
-<form action="<?php echo $current_file; ?>" method="POST">
+<form action="searchbysubject.php" method="POST">
+<select name="category" size="1">
+						         <option value="Chemical"> Chemical
+						         <option value="EEE and ENI"> EEE and ENI
+						         <option value="CS"> CS
+						         <option value="Mechanical"> Mechanical
+						         <option value="Physics"> Physics
+						         <option value="Chemistry"> Chemistry
+						         <option value="Mathematics"> Mathematics
+						         <option value="Economics"> Economics
+						         <option value="Biology"> Biology
+						         <option value="Others"> Others
+						         
+						       </select>
+						       <input type="submit" value="Search">
 <!-- Select Category: 
 <select name="category">
 	<option value="">Select</option>

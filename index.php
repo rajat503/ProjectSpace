@@ -5,7 +5,7 @@
 	
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="Ashish Kumar, Rajat Gupta and Bootstrap contributors">
+		<meta name="author" content="Ashish Kumar, Rajat Agarwal and Bootstrap contributors">
 		<meta name="keywords" content="Portal for submitting and searching projects">
 
 		<title>Project Portal | HOME Page</title>
@@ -56,30 +56,7 @@
 						   <tr>
 						     <td>
 						       <input type="hidden" name="dff_view" value="grid">
-						       Search
-
-						       <input type="text" name="dff_keyword" size="30" maxlength="50">
-						       
-						   		<select name="dff_category" size="1">
-						         <option value="-1">All Categories
-						         <option value="-2">--------------
-						         <option value="101"> Chemical
-						         <option value="102"> EEE and ENI
-						         <option value="103"> CS
-						         <option value="104"> Mechanical
-						         <option value="105"> Physics
-						         <option value="106"> Chemistry
-						         <option value="107"> Mathematics
-						         <option value="108"> Economics
-						         <option value="109"> Biology
-						         <option value="110"> Others
-						         
-						       </select>
-						       <input type="submit" value="Find">
-						     </td>
-						   </tr>
-						 </table>
-						</form>
+						    
 				</div>
 			</div>
 			</div>
@@ -102,6 +79,10 @@
 				</div>
 				<div class="col-md-12">
 					<a href="viewall.php" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">View all projects</button></a>
+				</div>
+			</div>		</div>
+			<div class="col-md-12">
+					<a href="searchbysubject.php" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">Search by branch</button></a>
 				</div>
 			</div>		</div>
 
